@@ -25,10 +25,6 @@ def calculate_structure_sum(data_structure):
             sum_all += calculate_structure_sum(key)
             sum_all += calculate_structure_sum(value)
     return sum_all
-    # else data_structure is None:
-    #     pass
-
-
 
 result = calculate_structure_sum(data_structure)
 print(result)
